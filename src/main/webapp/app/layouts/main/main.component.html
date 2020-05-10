@@ -1,0 +1,18 @@
+<jhi-page-ribbon></jhi-page-ribbon>
+
+
+<router-outlet name="navbar"></router-outlet>
+
+<div class="main" *ngIf="isAuthenticated(); else loggedOut">
+    <div class="container-fluid">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+
+<ng-template #loggedOut>
+    <router-outlet></router-outlet>
+</ng-template>
+
+
+
+<jhi-footer></jhi-footer>
