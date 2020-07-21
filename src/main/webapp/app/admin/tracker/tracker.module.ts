@@ -8,6 +8,6 @@ import { trackerRoute } from './tracker.route';
 
 @NgModule({
   imports: [CoopSharedModule, RouterModule.forChild([trackerRoute])],
-  declarations: [TrackerComponent]
+  declarations: [TrackerComponent],
 })
 export class TrackerModule {}

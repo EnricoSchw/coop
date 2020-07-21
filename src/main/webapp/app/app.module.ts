@@ -23,9 +23,9 @@ import { ErrorComponent } from './layouts/error/error.component';
     CoopHomeModule,
     // jhipster-needle-angular-add-module JHipster will add new module here
     CoopEntityModule,
-    CoopAppRoutingModule
+    CoopAppRoutingModule,
   ],
   declarations: [MainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent],
-  bootstrap: [MainComponent]
+  bootstrap: [MainComponent],
 })
 export class CoopAppModule {}
