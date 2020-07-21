@@ -53,8 +53,9 @@ local.properties
 
 # STS-specific
 /.sts4-cache/*
+
 ######################
-# Intellij
+# IntelliJ
 ######################
 .idea/
 *.iml
@@ -145,3 +146,9 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
+
+######################
+# custom
+######################
+.yo-rc.json
+package-lock.json
