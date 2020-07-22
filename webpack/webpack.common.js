@@ -79,6 +79,7 @@ module.exports = (options) => ({
                 { from: './node_modules/axios/dist/axios.min.js', to: 'swagger-ui' },
                 { from: './src/main/webapp/swagger-ui/', to: 'swagger-ui' },
                 { from: './src/main/webapp/content/', to: 'content' },
+                { from: './node_modules/ipfs/dist/index.min.js', to: 'content/js/ipfs/ipfs.min.js' },
                 { from: './src/main/webapp/favicon.ico', to: 'favicon.ico' },
                 { from: './src/main/webapp/manifest.webapp', to: 'manifest.webapp' },
                 // jhipster-needle-add-assets-to-webpack - JHipster will add/remove third-party resources in this array

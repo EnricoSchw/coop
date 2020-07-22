@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { IPFS } from 'ipfs';
 
 @Component({
   selector: 'jhi-editor',
@@ -8,5 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class EditorComponent implements OnInit {
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    const ipfsv = new IPFS({});
+  }
 }

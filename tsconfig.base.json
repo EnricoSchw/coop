@@ -14,8 +14,10 @@
     "outDir": "build/resources/main/static/app",
     "lib": ["es7", "dom"],
     "baseUrl": "./",
+    "typeRoots": ["node_modules/@types", "./src/main/webapp/app/typings"],
     "paths": {
-      "app/*": ["src/main/webapp/app/*"]
+      "app/*": ["src/main/webapp/app/*"],
+      "*": ["./src/main/webapp/app/typings/*"]
     },
     "importHelpers": true,
     "downlevelIteration": true,
